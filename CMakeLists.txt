@@ -4,3 +4,4 @@ project(DabudiDabudai)
 set(CMAKE_CXX_STANDARD 17)
 
 add_subdirectory(18_09_2024)
+add_subdirectory(1_10_2024)
