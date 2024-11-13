@@ -10,12 +10,12 @@ class Tree {
 private:
     struct Node{
         T data;
+        T sum;
         uint64_t priora = rd();
-        Node* parent = nullptr;
         Node* left = nullptr;
         Node* right = nullptr;
 
-        Node(T d): data(d) {}
+        Node(T d): data(d), sum(d){}
 
         ~Node() {
             delete left;
